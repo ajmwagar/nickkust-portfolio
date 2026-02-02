@@ -8,12 +8,9 @@ theme = 'stack'
   description = 'Head of Product at Future Present Labs. Economist, builder, and product thinker.'
   
   [params.sidebar]
+    emoji = ''
     subtitle = 'Head of Product at Future Present Labs'
-    
-    [params.sidebar.avatar]
-      enabled = true
-      local = true
-      src = "img/avatar.png"
+    avatar = 'img/avatar.png'
 
 [menu]
   [[menu.main]]
