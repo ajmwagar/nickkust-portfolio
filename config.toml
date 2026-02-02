@@ -9,7 +9,6 @@ theme = 'stack'
   
   [params.sidebar]
     subtitle = 'Head of Product at Future Present Labs'
-    avatar = 
     
     [params.sidebar.avatar]
       enabled = true
