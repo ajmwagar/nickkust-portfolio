@@ -1,7 +1,7 @@
 +++
-title: "Search"
-layout: "search"
-url: "/search/"
-summary: "search"
-placeholder: "Search blog posts..."
+title = "Search"
+layout = "search"
+url = "/search/"
+summary = "search"
+placeholder = "Search blog posts..."
 +++
