@@ -13,7 +13,7 @@ categories = [
 ]
 +++
 
-Welcome to my corner of the internet. I'm Nick Kust, Head of Product at [Future Present Labs](https://futurepresentlabs.com), where we're building the infrastructure for the next generation of American manufacturing.
+Welcome to my corner of the internet. I'm Nick Kust, Head of Product at [Future Present Labs](https://fpl.dev), where we're building the infrastructure for the next generation of American manufacturing.
 
 ## My Background
 

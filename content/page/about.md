@@ -8,7 +8,7 @@ author = "Nick Kust"
 
 ## Nick Kust
 
-**Head of Product at [Future Present Labs](https://futurepresentlabs.com)**
+**Head of Product at [Future Present Labs](https://fpl.dev)**
 
 Building the product infrastructure for agentic American manufacturing.
 
@@ -57,6 +57,6 @@ Our mission: make it as easy to manufacture in America as it is anywhere else in
 ### Connect
 
 - [LinkedIn](https://linkedin.com/in/nickkust)
-- [Future Present Labs](https://futurepresentlabs.com)
+- [Future Present Labs](https://fpl.dev)
 
 Always interested in conversations about product, economics, manufacturing tech, and global markets.
