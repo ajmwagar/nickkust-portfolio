@@ -76,7 +76,7 @@ pagerSize = 10
 # Social icons
 [[params.social]]
   name = "linkedin"
-  url  = "https://linkedin.com/in/nickkust"
+  url  = "https://www.linkedin.com/in/carpe-diem-nunc"
 
 [[params.social]]
   name = "github"

@@ -54,7 +54,7 @@ Our mission: make it as easy to manufacture in America as it is anywhere else in
 
 ### Connect
 
-- [LinkedIn](https://linkedin.com/in/nickkust)
+- [LinkedIn](https://www.linkedin.com/in/carpe-diem-nunc)
 - [Future Present Labs](https://fpl.dev)
 
 Always interested in conversations about product, economics, manufacturing tech, and global markets.
