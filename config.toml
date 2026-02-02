@@ -1,0 +1,39 @@
+baseURL = 'https://nickkust-portfolio.netlify.app'
+languageCode = 'en-us'
+title = 'Nick Kust'
+theme = 'stack'
+
+[params]
+  author = 'Nick Kust'
+  description = 'Head of Product at Future Present Labs. Economist, builder, and product thinker.'
+  
+  [params.sidebar]
+    subtitle = 'Head of Product at Future Present Labs'
+    avatar = 
+    
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'archives'
+    name = 'Archives'
+    url = '/archives/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 40
