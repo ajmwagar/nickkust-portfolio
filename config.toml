@@ -1,35 +1,85 @@
 baseURL = 'https://nickkust-portfolio.netlify.app'
-languageCode = 'en-us'
-title = 'Nick Kust'
-theme = 'stack'
+theme = "hello-friend-ng"
+defaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Nick Kust"
+paginate = 10
 
 [params]
-  author = 'Nick Kust'
-  description = 'Head of Product at Future Present Labs. Economist, builder, and product thinker.'
-  
-  [params.sidebar]
-    emoji = ''
-    subtitle = 'Head of Product at Future Present Labs'
-    avatar = 'img/avatar.png'
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-[menu]
-  [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
-    weight = 10
-  [[menu.main]]
-    identifier = 'about'
-    name = 'About'
-    url = '/about/'
-    weight = 20
-  [[menu.main]]
-    identifier = 'archives'
-    name = 'Archives'
-    url = '/archives/'
-    weight = 30
-  [[menu.main]]
-    identifier = 'search'
-    name = 'Search'
-    url = '/search/'
-    weight = 40
+  # Subtitle for home
+  homeSubtitle = "Head of Product at Future Present Labs"
+
+  # Set disableReadOtherPosts to true if you don't want to display links to other posts
+  disableReadOtherPosts = false
+
+  # Enable theme toggle
+  enableThemeToggle = true
+
+  # Enable sharing buttons
+  EnableSharingButtons = true
+
+  # Global language menu
+  disableGlobalLanguageMenu = false
+
+  # Custom CSS
+  customCSS = []
+
+  # Custom JS
+  customJS = []
+
+  # Description for SEO
+  description = "Nick Kust - Head of Product at Future Present Labs. Economist, builder, and product thinker."
+  keywords = "product management, economics, manufacturing, technology"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Nick Kust"
+    subtitle = "Head of Product at Future Present Labs"
+    keywords = ""
+    copyright = '<span style="display: inline-block;">© 2026 Nick Kust</span>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Nick Kust"
+      logoHomeLink = "/"
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "/about/"
+      weight     = 1
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name       = "Posts"
+      url        = "/posts/"
+      weight     = 2
+
+[params.portrait]
+  path     = "/img/avatar.png"
+  alt      = "Nick Kust"
+  maxWidth = "300px"
+
+# Social icons
+[[params.social]]
+  name = "linkedin"
+  url  = "https://linkedin.com/in/nickkust"
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/nickkust"
+
+[[params.social]]
+  name = "twitter"
+  url  = "https://twitter.com/nickkust"
