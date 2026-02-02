@@ -3,7 +3,9 @@ theme = "hello-friend-ng"
 defaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Nick Kust"
-paginate = 10
+
+[pagination]
+pagerSize = 10
 
 [params]
   dateform        = "Jan 2, 2006"
